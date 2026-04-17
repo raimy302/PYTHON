@@ -3,16 +3,6 @@
 ## Descripción
 Este script Python automatiza la organización de archivos en un directorio fuente, moviéndolos a subcarpetas en un directorio destino según su extensión (imágenes, documentos, videos, etc.).
 
-## Uso
-1. Coloca el script en el directorio `file_automator`.
-2. Abre una terminal en `C:/Users/raimy/Desktop/file_automator`.
-3. Ejecuta:
-   ```
-   python file_organizer.py "ruta/al/directorio/fuente" [ruta/al/directorio/destino]
-   ```
-   - Ejemplo: `python file_organizer.py "C:/Users/raimy/Desktop/mis_archivos" "C:/Users/raimy/Desktop/organizados"`
-   - Si no especificas destino, usa `./organizados`.
-
 ## Características
 - Maneja conflictos de nombres agregando números (archivo_1.ext).
 - Categorías predefinidas y extensible.
